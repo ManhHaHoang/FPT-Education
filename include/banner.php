@@ -11,6 +11,39 @@
                 </div>
             </div>
         </li>
+        <li class="slide">
+            <img src="/images/banner/halongbay.png" alt="">
+            <div class="banner-desc">
+                <div class="banner-title">
+                    Your global journey starts here!
+                </div>
+                <div class="banner-content">
+                    Vietnam - The best study abroad destination in the midst of the COVID-19 pandemic
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <img src="/images/banner/hochiminh.png" alt="">
+            <div class="banner-desc">
+                <div class="banner-title">
+                    Your global journey starts here!
+                </div>
+                <div class="banner-content">
+                    Vietnam - The best study abroad destination in the midst of the COVID-19 pandemic
+                </div>
+            </div>
+        </li>
+        <li class="slide">
+            <img src="/images/banner/hanoi.png" alt="">
+            <div class="banner-desc">
+                <div class="banner-title">
+                    Your global journey starts here!
+                </div>
+                <div class="banner-content">
+                    Vietnam - The best study abroad destination in the midst of the COVID-19 pandemic
+                </div>
+            </div>
+        </li>
     </ul>
 
     <div class="banner-controls">

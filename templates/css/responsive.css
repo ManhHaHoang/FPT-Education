@@ -81,8 +81,7 @@
         align-items: center;
     }
     .navigation {
-        width: 280px;
-        max-width: calc(100vw - 50px);
+        width: 260px;
         position: fixed;
         top: 0;
         left: 0;
@@ -91,7 +90,7 @@
         overflow-y: auto;
         background-color: #fff;
         box-shadow: 0 2px 5px rgba(11, 11, 11, 0.2);
-        z-index: 99;
+        z-index: 9999999;
         transition: all 250ms ease;
         transform: translateX(-150%);
     }
@@ -126,7 +125,7 @@
     .close-menu {
         position: fixed;
         top: 15px;
-        right: 120px;
+        left: 280px;
         width: 24px;
         height: 24px;
         cursor: pointer;
@@ -217,7 +216,8 @@
     }
 
     .scholarship-box {
-        padding: 15px 25px;
+        padding: 15px 20px;
+        margin: 0
     }
 
     #slides {
@@ -281,6 +281,10 @@
         margin-left: 15px
     }
 
+    .open-menu {
+        overflow: hidden;
+    }
+
 }
 
 
@@ -290,7 +294,14 @@
         height: 75vh
     }
     .banner-desc {
-        width: 80%;
+        width: 76%;
+        left: 14%;
+    }
+
+    .banner-title {
+        font-size: 39px;
+        text-align: left;
+        line-height: 41px;
     }
 
     .study-box, .choose-contain {
@@ -396,16 +407,17 @@
         padding: 5px 0
     }
 
-    .row span {
-        white-space: nowrap;
+    .row span:first-child {
+        white-space: normal;
+        width: 100px;
     }
 
+    .row span + span {
+        width: calc(100% - 100px);
+        padding-left: 7px;
+    }
     .transfer-bg {
         margin-top: 25px;
-    }
-
-    .scholarship-box {
-        padding-top: 0
     }
 
     #transfer  {
@@ -454,5 +466,95 @@
 
     .footer-content p:nth-of-type(1) {
         flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 380px) {
+    body * {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .step-by-step {
+        width: 100%;
+        padding: 15px 25px;
+    }
+
+    .step-by-step .admission-content {
+        padding: 0
+    }
+    .step-by-step + img {
+        width: calc(100% - 30px);
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    .campus-contain {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 15px;
+    }
+
+    .campus-contain .campus-item {
+        height: 180px;
+    }
+
+    .campus-contain .campus-item img {
+        object-fit: cover;
+    }
+
+    .banner-desc {
+        justify-content: flex-end;
+    }
+
+    .banner-title {
+        font-size: 25px;
+        text-align: left;
+        line-height: 31px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+
+    .banner-title::after {
+        width: 90%
+    }
+
+    .banner-content {
+        font-size: 17px;
+        line-height: 21px;
+        text-align: left;
+    }
+/*
+    .backtopbox {
+        display: none !important;
+        opacity: 0;
+        right: -999px;
+        bottom: -999px;
+        z-index: -88;
+        visibility: hidden;
+    }
+
+    #open-menu {
+        position: fixed;
+        border-top: 25px;
+        width: 35px;
+        height: 35px;
+        top: auto;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 25px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        box-shadow: 0 0 12px rgba(11, 11, 11, 0.5)
+    } */
+
+}
+
+@media (max-width: 990px) and (orientation: landscape) {
+    #slides {
+        height: 100vh
     }
 }

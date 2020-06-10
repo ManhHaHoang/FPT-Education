@@ -18,19 +18,24 @@
                     </div>
                     <div class="degree-footer">
                         <div class="row">
-                            <span>Validated/ Awarded by:</span> FPT University Vietnam
+                            <span>Validated/ Awarded by:</span>
+                            <span>FPT University Vietnam</span>
                         </div>
                         <div class="row">
-                            <span>Type of Course:</span> Full-time, degree-awarded program
+                            <span>Type of Course:</span>
+                            <span>Full-time, degree-awarded program</span>
                         </div>
                         <div class="row">
-                            <span>Duration:</span> 3 Years (9 Semesters)
+                            <span>Duration:</span>
+                            <span>3 Years (9 Semesters)</span>
                         </div>
                         <div class="row">
-                            <span>Intakes:</span> January | May | September
+                            <span>Intakes:</span>
+                            <span>January | May | September</span>
                         </div>
                         <div class="row">
-                            <span>Tuition fee:</span> USD 11,700
+                            <span>Tuition fee:</span>
+                            <span>USD 11,700</span>
                         </div>
                     </div>
                     <div class="degree-readmore">
