@@ -2,7 +2,7 @@
     <div class="site-w">
         <div class="site-logo">
             <a href="/">
-                <img src="images/logo.png" alt="">
+                <img src="images/logo-w.svg" alt="">
             </a>
         </div>
         <?php include 'navigation.php';?>

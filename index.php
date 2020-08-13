@@ -1,5 +1,5 @@
 <?php
-$v = time()
+$v = time();
 ?>
 <!DOCTYPE html>
 <html lang="vi" dir="ltr">
@@ -10,9 +10,10 @@ $v = time()
     <link type="image/x-icon" rel="shortcut icon" sizes="16x16" href="images/favicon.png"/>
     <link rel="stylesheet" type="text/css"  href="templates/css/guide.css?v=<?= $v ?>"/>
     <link rel="stylesheet" type="text/css"  href="templates/css/style.css?v=<?= $v ?>"/>
+    <link rel="stylesheet" type="text/css"  href="templates/css/slide.css?v=<?= $v ?>"/>
     <link rel="stylesheet" type="text/css"  href="templates/css/responsive.css?v=<?= $v ?>" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-    <title>FPT Education</title>
+    <title>Education</title>
 </head>
 <body id="main-body">
     <?php include 'include/header.php'; ?>
@@ -24,7 +25,6 @@ $v = time()
     <?php include 'include/program.php'; ?>
     <?php include 'include/scholarship.php'; ?>
     <?php include 'include/transfer.php'; ?>
-    <?php include 'include/admission.php'; ?>
     <?php include 'include/campus.php'; ?>
     <?php include 'include/footer.php'; ?>
 </body>

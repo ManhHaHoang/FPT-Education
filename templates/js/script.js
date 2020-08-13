@@ -16,11 +16,11 @@ jQuery(document).ready(function() {
         }, 500);
     });
 
-    $('.nav-link').on('click', function(e) {
-        var currentAttrValue = $(this).attr('href');
-        e.preventDefault();
+    $(document).on('click', 'a[href^="#"]', function (event) {
+        event.preventDefault();
+
         $('html, body').animate({
-            scrollTop: $(currentAttrValue).offset().top
+            scrollTop: $($.attr(this, 'href')).offset().top
         }, 500);
     });
 
@@ -32,7 +32,6 @@ jQuery(document).ready(function() {
         $('.nav-link').on('click', function(e) {
             $('body').toggleClass('open-menu');
         });
-
     }
 
 });

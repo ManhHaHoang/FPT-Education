@@ -1,27 +1,12 @@
 <footer class="site-footer">
     <div id="contact"  class="footer-contain">
-        <div class="footet-title">
-            INTEREST? LEAVE YOUR CONTACT HERE TO GET FREE CONSULTATION
-        </div>
-        <form class="contact-form" action="/" method="post">
-            <input class="control input-control" type="text" name="" placeholder="Full name">
-            <input class="control input-control" type="text" name="" placeholder="Email">
-            <input class="control input-control" type="text" name="" placeholder="Gender">
-            <input class="control input-control" type="text" name="" placeholder="Phone Number">
-            <input class="control input-control" type="text" name="" placeholder="Date of Birth">
-            <select class="control select-control" name="">
-                <option class="select-control" value="Course Selection"> Course Selection</option>
-            </select>
-            <input class="control input-control" type="text" name="" placeholder="Nationality">
-            <input class="control input-control" type="text" name="" placeholder="Let us know if you have any questions">
-        </form>
         <div id="contactus" class="footer-information">
             <a class="footer-logo" href="/">
-                <img src="images/logo.png" alt="">
+                <img src="images/logo-w.svg" alt="">
             </a>
             <div class="footer-content">
                 <div class="information">
-                    FPT Education Global
+                    Education Global
                 </div>
                 <p><svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m256.001 512c-11.176 0-21.184-5.796-26.77-15.505-.059-.102-.116-.205-.173-.308l-126.962-232.386c-30.306-55.471-29.437-121.312 2.325-176.124 31.073-53.624 86.265-86.385 147.639-87.637 2.622-.054 5.258-.054 7.878 0 61.375 1.252 116.567 34.013 147.641 87.637 31.762 54.812 32.631 120.652 2.325 176.124l-126.962 232.386c-.057.103-.114.206-.173.308-5.585 9.708-15.592 15.505-26.768 15.505zm-.001-480c-1.099 0-2.195.011-3.289.033-50.099 1.022-95.185 27.821-120.604 71.688-26.107 45.055-26.829 99.162-1.93 144.736l125.823 230.3 125.822-230.299c24.899-45.575 24.178-99.682-1.931-144.737-25.419-43.866-70.505-70.666-120.604-71.688-1.091-.022-2.188-.033-3.287-.033z"/><path d="m256 232c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72zm0-112c-22.056 0-40 17.944-40 40s17.944 40 40 40 40-17.944 40-40-17.944-40-40-40z"/></g></svg> 4th floor, Vietin Bank Building, No. 80 Tran Thai Tong, Cau Giay Dist., Hanoi City.</p>
                 <p>
@@ -33,7 +18,7 @@
                             +84 354 235 298 (or) +84 393 815 182
                         </span>
                     </p>
-                <a href="#">Read more about FPT Corporation and FPT Education</a>
+                <a href="#">Read more aboutEducation</a>
             </div>
         </div>
     </div>
@@ -43,5 +28,16 @@
         </div>
     </div>
 </footer>
-<script src="templates/js/jquery-3.5.1.min.js"></script>
-<script src="templates/js/script.js?v=<?= $v ?>"></script>
+<script src="/templates/js/jquery-3.5.1.js"></script>
+<script src="/templates/js/slick.js?v=<?= $v ?>"></script>
+<script src="/templates/js/script.js?v=<?= $v ?>"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#slides').slick({
+        dots: !1,
+        slidesToShow: 1,
+        autoplay: 1,
+        autoplaySpeed: 2000
+    });
+});
+</script>

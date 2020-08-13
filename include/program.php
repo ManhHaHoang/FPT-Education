@@ -14,7 +14,7 @@
                 </div>
                 <div class="degree-footer">
                     <div class="row">
-                        <span>Validated/ Awarded by:</span> FPT University Vietnam
+                        <span>Validated/ Awarded by:</span> University Vietnam
                     </div>
                     <div class="row">
                         <span>Type of Course:</span> Full-time, degree-awarded program
@@ -52,7 +52,7 @@
                     <div class="degree-footer">
                         <div class="row">
                             <span>Validated/ Awarded by:</span>
-                            <span>FPT University Vietnam</span>
+                            <span>University Vietnam</span>
                         </div>
                         <div class="row">
                             <span>Type of Course:</span>

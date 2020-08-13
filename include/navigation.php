@@ -10,9 +10,6 @@
             <a class="nav-link" href="#transfer">Transfer Pathway</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#admission">Admission Procedure</a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="#campus">Campus Life</a>
         </li>
         <li class="nav-item">

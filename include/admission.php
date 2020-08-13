@@ -11,7 +11,7 @@
                     </div>
                     <div class="admission-box">
                         <b>Meet the Admission Officer</b>
-                        Get a brief introduction about the program and other relevant information Attend our weekly "Meet the Dean" program to join an e-talk session with the Dean of FPT Education Global, get inspired, free consultation on your study abroad plan as well as grab scholarship opportunities
+                        Get a brief introduction about the program and other relevant information Attend our weekly "Meet the Dean" program to join an e-talk session with the Dean of Education Global, get inspired, free consultation on your study abroad plan as well as grab scholarship opportunities
                     </div>
                 </div>
             <?php } ?>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="admission-box">
                         <b>Meet the Admission Officer</b>
-                        Get a brief introduction about the program and other relevant information Attend our weekly "Meet the Dean" program to join an e-talk session with the Dean of FPT Education Global, get inspired, free consultation on your study abroad plan as well as grab scholarship opportunities
+                        Get a brief introduction about the program and other relevant information Attend our weekly "Meet the Dean" program to join an e-talk session with the Dean of Education Global, get inspired, free consultation on your study abroad plan as well as grab scholarship opportunities
                     </div>
                 </div>
             <?php } ?>

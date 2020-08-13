@@ -4,7 +4,7 @@
     </div>
     <div class="site-bg about-bg component-content">
         <div class="box-title txt-center">
-            Key facts about FPT Education
+            Key facts about Education
         </div>
         <div class="contain">
             <div class="box-1 contain-content">

@@ -5,7 +5,7 @@
     <div class="scholarship-contain">
             <div class="scholarship-content">
                 <div class="scholarship-title">
-                    FPT University
+                    University
                 </div>
                 <div class="scholarship-box">
                     <p>
@@ -38,7 +38,7 @@
             </div>
             <div class="scholarship-content">
                 <div class="scholarship-title">
-                    FPT University
+                    University
                 </div>
                 <div class="scholarship-box">
                     <p>

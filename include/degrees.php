@@ -3,7 +3,7 @@
         OUR DEGREES
     </div>
     <div class="degrees-sub-title txt-center">
-        Programs offered by FPT University
+        Programs offered by University
     </div>
     <div class="site-bg degrees-bg">
         <div class="degrees-contain">
@@ -19,7 +19,7 @@
                     <div class="degree-footer">
                         <div class="row">
                             <span>Validated/ Awarded by:</span>
-                            <span>FPT University Vietnam</span>
+                            <span>University Vietnam</span>
                         </div>
                         <div class="row">
                             <span>Type of Course:</span>

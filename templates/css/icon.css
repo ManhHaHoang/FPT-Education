@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?v77vnz');
+    src:  url('../fonts/icomoon.eot?v77vnz#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?v77vnz') format('truetype'),
+    url('../fonts/icomoon.woff?v77vnz') format('woff'),
+    url('../fonts/icomoon.svg?v77vnz#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+    content: "\e903";
+}
+.icon-thumb_up:before {
+    content: "\e926";
+}
+.icon-verified:before {
+    content: "\e904";
+}
+.icon-bar_chart:before {
+    content: "\e905";
+}
+.icon-share-2:before {
+    content: "\e923";
+}
+.icon-log-out:before {
+    content: "\e906";
+}
+.icon-log-in:before {
+    content: "\e907";
+}
+.icon-gift:before {
+    content: "\e908";
+}
+.icon-chevrons-right:before {
+    content: "\e909";
+}
+.icon-arrow:before {
+    content: "\e90a";
+}
+.icon-phone-call:before {
+    content: "\e90b";
+}
+.icon-refresh:before {
+    content: "\e90c";
+}
+.icon-switch:before {
+    content: "\e90d";
+}
+.icon-arrow-long:before {
+    content: "\e922";
+}
+.icon-envelope:before {
+    content: "\e90e";
+}
+.icon-linkedin:before {
+    content: "\e900";
+}
+.icon-checkmark:before {
+    content: "\e925";
+}
+.icon-site-map:before {
+    content: "\e90f";
+}
+
+.icon-search:before {
+    content: "\e924";
+}
+.icon-eye:before {
+    content: "\e910";
+}
+
+.icon-transport:before {
+    content: "\e911";
+}
+
+.icon-shipping:before {
+    content: "\e911";
+}
+
+.icon-money:before {
+    content: "\e912";
+}
+
+.icon-mobile:before {
+    content: "\e913";
+}
+
+.icon-cart:before {
+    content: "\e914";
+}
+
+.icon-ecommerce:before {
+    content: "\e914";
+}
+.icon-credit-card:before {
+    content: "\e915";
+}
+.icon-cc-paypal:before {
+    content: "\e916";
+}
+.icon-heart-o:before {
+    content: "\e917";
+}
+.icon-heart:before {
+    content: "\e918";
+}
+.icon-star:before {
+    content: "\e919";
+}
+.icon-facebook:before {
+    content: "\e901";
+}
+
+.icon-facebook1:before {
+    content: "\e91a";
+    color: #1877f2;
+}
+.icon-google:before {
+    content: "\e91b";
+    color: #4285f4;
+}
+.icon-instagram:before {
+    content: "\e91c";
+    color: #e4405f;
+}
+.icon-mastercard:before {
+    content: "\e91d";
+    color: #eb001b;
+}
+.icon-pinterest:before {
+    content: "\e91e";
+    color: #bd081c;
+}
+.icon-tumblr:before {
+    content: "\e91f";
+    color: #36465d;
+}
+.icon-twitter:before {
+    content: "\e920";
+    color: #1da1f2;
+}
+.icon-visa:before {
+    content: "\e921";
+    color: #142787;
+}
+.icon-youtube1:before {
+    content: "\e902";
+    color: #f00;
+}
+.icon-location2:before {
+    content: "\e948";
+}
+.icon-whatsapp:before {
+    content: "\ea93";
+}
